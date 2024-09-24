@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin: 20px auto;
+}
+
+input[type="text"] {
+    border-radius: 15px;
+    padding: 10px;
+    width: 300px;
+}
+
+input[type="submit"], button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #4285F4; /* Google蓝色 */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #357AE8; /* 深色 */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
